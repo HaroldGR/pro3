@@ -1,0 +1,68 @@
+/* ----------------------------------------------
+	Template Name : FreshPick
+	Template Code : S-0029
+	Version : 1.0
+	Author : Erwin Aligam
+	Author URI : http://www.styleshout.com/       
+	Last Date Modified : April 24, 2009
+ ------------------------------------------------ */
+ 
+/* ----------------------------------------------
+   HTML ELEMENTS
+------------------------------------------------- */ 
+#nav {
+position: absolute;
+top: 10px;
+left: 10px;
+list-style: none;
+margin: 0;
+padding: 0;
+height: 20px;
+display: inline;
+overflow: hidden;
+width: 201px;
+}
+
+#nav li {
+	margin: 0;
+	padding: 0;
+	display: inline;
+	list-style-type: none;
+	}
+
+#nav a {
+	float: left;
+	padding: 20px 0 0 0;
+	overflow: hidden;
+	height: 0px !important;
+	height /**/:20px; /* for IE5/Win */
+	}
+
+#nav a:hover {
+	background-position: 0 -20px;
+	}
+
+#nav a:active, #nav a.selected {
+	background-position: 0 -40px;
+	}
+
+#thome a  {
+	width: 40px;
+	background: url(../images/home.gif) top left no-repeat;
+	}
+
+#tguides a  {
+	width: 45px;
+	background: url(../images/guides.gif) top left no-repeat;
+	}
+
+#tmag a  {
+	width: 62px;
+	background: url(../images/magazine.gif) top left no-repeat;
+	}
+
+#tarchives a  {
+	width: 54px;
+	background: url(../images/archives.gif) top left no-repeat;
+	}
+-->
