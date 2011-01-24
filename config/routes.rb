@@ -24,6 +24,7 @@ resources :users, :only => [:new, :create, :destroy, :update, :edit, :show, :ind
   
   get "users/new"
   get "users/create"
+  get "home/index"
 
 
   #***************************
