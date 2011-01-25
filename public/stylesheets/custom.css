@@ -3,8 +3,7 @@
 }
 
 body {
-  background: #900000
-      ;
+  background-image: url("images/backg.jpg") ;
 }
 
 header {
@@ -13,14 +12,14 @@ header {
 
 header img {
   padding: 1em;
-  background: #fff;
+  background-image:url("images/barra.gif");
 }
 
 section {
   margin-top: 1em;
   font-size: 120%;
   padding: 20px;
-  background: #fff;
+  background: #F0FF89;
 }
 
 /* Links */
@@ -46,7 +45,7 @@ nav {
 }
 
 nav {
-  background-color: white;
+  background-color: threedlightshadow;
   padding: 0 0.7em;
   white-space: nowrap;
 }
@@ -68,7 +67,7 @@ nav ul li a {
 }
 
 nav ul li a:visited {
-  color: #09c;
+  color: indigo;
 }
 
 nav ul li a:hover {
@@ -78,24 +77,24 @@ nav ul li a:hover {
 /* Sign up button */
 
 a.signup_button {
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
+  margin-left: 275px;
+  margin-right: 400px;
   text-align: center;
-  width: 190px;
-  color: #fff;
-  background: blue;
+  width: auto;
+  height: auto;
+  color: #060;
+  background-image: url("images/boton.jpeg");
   font-size: 100%;
   font-weight: bold;
-  padding: 20px;
+  padding: 0px;
 }
 
 /* Round corners */
 
 .round {
-  -moz-border-radius:    10px;
-  -webkit-border-radius: 10px;
-  border-radius:         10px;
+  -moz-border-radius:    20px;
+  -webkit-border-radius: 20px;
+  border-radius:         30px;
 }
 
 footer {
@@ -119,6 +118,13 @@ h1 {
 table.profile {
   width: 100%;
   margin-bottom: 0;
+  background: transparent;
+}
+
+table.harold {
+  width: 100%;
+  margin-bottom: 4px;
+  background: transparent;
 }
 
 td.main {
@@ -129,8 +135,9 @@ td.main {
 td.sidebar {
   width: 30%;
   padding: 2em;
-  vertical-align: top;
-  background: #FFF8DC ;
+  vertical-align:top;
+  background: khaki ;
+
 }
 
 .profile img.gravatar {
@@ -244,4 +251,5 @@ form.new_micropost {
 form.new_micropost textarea {
   height: 4em;
   margin-bottom: 0;
+  background: #FFFFDB;
 }

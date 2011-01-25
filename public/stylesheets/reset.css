@@ -21,7 +21,7 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 body {
 	line-height: 1;
 	color: black;
-	background: white;
+	background-image: url('/background_img/perfil.jpg');
 }
 ol, ul {
 	list-style: none;

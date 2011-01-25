@@ -1,7 +1,7 @@
 <% if signed_in? %>
-  <table class="front" summary="For signed-in users">
+  <table class="front round" summary="For signed-in users">
     <tr>
-      <td class="main">
+      <td class="main round">
         <h1 class="micropost"><%= current_user.name%>¿Que ha pasado hoy?</h1>
         <%= render 'shared/micropost_form' %>
 		<%= render 'shared/feed' %>
@@ -20,6 +20,5 @@
     <a href="http://railstutorial.org/chapters/user-microposts#top" target="_blank">Ruby on Rails Tutorial Book</a>
     .
   </p>
-
-  <%= link_to "Registrate Ahora para Ingresar a Postear..!!", signup_path, :class => "signup_button round" %>
+  <%=  link_to image_tag("boton.jpeg", :width=>"auto",:height=>"auto",:class =>"round",:align=>'center',:valign=>'center'),signup_path,:class => "signup_button round" %>
 <% end %>
